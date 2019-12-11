@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <color name="colorPrimary">#f57f17</color>&lt;!&ndash;008577&ndash;&gt;-->
+<!--    <color name="colorPrimaryDark">#bc5100</color>&lt;!&ndash;00574B&ndash;&gt;-->
+<!--    <color name="colorAccent">#49b1ca</color>&lt;!&ndash;D81B60&ndash;&gt;-->
+    <color name="appBackground">#FFD9D7D8</color>
+    <color name="buttonBackground">#49b1ca</color>
+    <color name="rowTextColor">#000</color>
+    <color name="colorPrimary">#F07522</color>
+    <color name="colorPrimaryDark">#EB9328</color>
+    <color name="colorAccent">#1F84D1</color>
+    <color name="colorbtn">#B9BBBD</color>
+    <color name="colorBackground">#333C46</color>
+    <color name="colorSplashText">#F0F0F0</color>
+    <color name="colorProgressBar">#FFCE511C</color>
+    <color name="colorTextView">#009688</color>
+    <color name="black">#0D0D0E</color>
+    <color name="white">#FFFFFF</color>
+    <color name="grey_dialog_box">#F8F1A26C</color>
+    <color name="hint">#1F84D1</color>
+    <color name="extra">#E9B6B6</color>
+
+</resources>

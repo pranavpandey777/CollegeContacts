@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appBackground"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="20dp">
+        <TextView
+            android:layout_marginBottom="50dp"
+            android:id="@+id/WelcomeTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:fontFamily="casual"
+            android:textColor="@color/colorBackground"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/signUpImage"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginBottom="10dp"
+            android:visibility="gone"
+            android:src="@drawable/cam" />
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:textColorHint="@color/hint"
+            android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/id"
+            android:layout_width="match_parent"
+            android:fontFamily="casual"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:hint="ID"
+            android:textColor="@color/colorTextView"
+            android:textColorHint="@color/colorAccent"
+            android:textSize="20sp"  />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:textColorHint="@color/hint"
+            android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/signUpName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:hint="Name"
+            android:fontFamily="casual"
+            android:textColor="@color/colorTextView"
+            android:textColorHint="@color/colorAccent"
+            android:textSize="20sp"  />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:textColorHint="@color/hint"
+            android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/signUpEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:hint="Email"
+            android:textColor="@color/colorTextView"
+            android:textColorHint="@color/colorAccent"
+            android:fontFamily="casual"
+            android:textSize="20sp"  />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:textColorHint="@color/hint"
+            android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/dept"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:hint="Department"
+            android:fontFamily="casual"
+            android:textColor="@color/colorTextView"
+            android:textColorHint="@color/colorAccent"
+            android:textSize="20sp" />
+        </android.support.design.widget.TextInputLayout>
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+
+        </Spinner>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:textColorHint="@color/hint"
+            android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/signUpPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:hint="Phone"
+            android:textColor="@color/colorTextView"
+            android:textColorHint="@color/colorAccent"
+            android:fontFamily="casual"
+            android:textSize="20sp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Spinner
+            android:id="@+id/signUpSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+
+        </Spinner>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:textColorHint="@color/hint"
+            android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/signUpPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:textColor="@color/colorTextView"
+            android:textColorHint="@color/colorAccent"
+            android:textSize="20sp"
+            android:inputType="textPassword"
+            android:fontFamily="casual"
+            android:hint="Password (atleast 6 charcters)"
+             />
+        </android.support.design.widget.TextInputLayout>
+
+
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_above="@+id/register"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/button_drawable"
+            android:text="Register"
+            android:layout_marginTop="30dp"
+            android:fontFamily="casual"
+            android:textAllCaps="false"
+            android:textColor="@color/colorbtn"
+            android:textSize="16sp"  />
+
+    </LinearLayout>
+</ScrollView>

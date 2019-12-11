@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "698288841870",
+    "firebase_url": "https://rayat-5f63c.firebaseio.com",
+    "project_id": "rayat-5f63c",
+    "storage_bucket": "rayat-5f63c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:698288841870:android:d942169dcf0740b87dd5df",
+        "android_client_info": {
+          "package_name": "com.example.rayatuniv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "698288841870-s5o2ngp7lvfkee5uvukgm8s433qfvs4h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rayatuniv",
+            "certificate_hash": "8a2d66f44c48afdeac54517eb9244c6f20e06859"
+          }
+        },
+        {
+          "client_id": "698288841870-1vm5crk55d4o1ql5bt6bro1smj50hehf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeg-SQVqdf8iin6jg6nYQ9gI-Jvrk19HU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "698288841870-1vm5crk55d4o1ql5bt6bro1smj50hehf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:698288841870:android:9cd2b6fc2eb8029f7dd5df",
+        "android_client_info": {
+          "package_name": "com.example.rbu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "698288841870-1vm5crk55d4o1ql5bt6bro1smj50hehf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeg-SQVqdf8iin6jg6nYQ9gI-Jvrk19HU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "698288841870-1vm5crk55d4o1ql5bt6bro1smj50hehf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
